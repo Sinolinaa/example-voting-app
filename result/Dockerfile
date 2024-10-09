@@ -21,7 +21,7 @@ COPY . .
 ENV PORT 80
 EXPOSE 80
 
-#========================File edited in QA========================
+#=======================File edited in QA========================
 
 ENTRYPOINT ["/usr/bin/tini", "--"]
 CMD ["node", "server.js"]
